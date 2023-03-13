@@ -1,0 +1,29 @@
+{
+  "name": "chatcord",
+  "version": "1.0.0",
+  "description": "Chat App nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michojekunle/chatcord.git"
+  },
+  "keywords": [
+    "chat-app"
+  ],
+  "author": "AMD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michojekunle/chatcord/issues"
+  },
+  "homepage": "https://github.com/michojekunle/chatcord#readme",
+  "devDependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "nodemon": "^2.0.21",
+    "socket.io": "^4.6.1"
+  }
+}
