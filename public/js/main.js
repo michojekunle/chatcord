@@ -26,8 +26,6 @@ chatForm.addEventListener('submit', e => {
     // Clear and Focus on Input
     e.target.elements.msg.value = '';
     e.target.elements.msg.focus();
-
-
 })
 
 // Output Message to the DOM
